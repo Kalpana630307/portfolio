@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#projects {
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(185, 167, 163), #e29860);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: grid;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.project-card {
+    background: #966060;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    color: #f4b400;
+}
+
+.project-card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+

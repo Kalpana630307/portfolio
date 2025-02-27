@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#skills {
+    height: 100vh; 
+    background: linear-gradient(to right, rgb(128, 132, 133), rgb(109, 112, 112));
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 200px;
+}
+
+.skill-box {
+    background: transparent;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.skill-box p {
+    font-size: 18px;
+    margin-top: 10px;
+}
